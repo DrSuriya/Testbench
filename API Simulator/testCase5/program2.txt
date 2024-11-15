@@ -1,0 +1,2 @@
+SYSCALL 4, 114
+EXEC program4, 21

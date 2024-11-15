@@ -1,0 +1,22 @@
+0, 4, switch to kernel mode
+4, 7, context saved
+11, 8, load address 0X0695 into the PC
+19, 480, FORK: copying parent PCB to child PCB
+499, 6, scheduler called
+505, 4, IRET
+509, 6, switch to kernel mode
+515, 7, context saved
+522, 3, load address 0X029C into the PC
+525, 44, EXEC: loading program1
+569, 22, found partition 2 with 25Mb of space
+579, 6, partition 2 marked as occupied
+581, 17, updating PCB with new information
+584, 8, scheduler called
+592, 1, IRET
+593, 10, switch to kernel mode
+603, 4, context saved
+607, 7, load address 0X0695 into the PC
+614, 6, FORK: copying parent PCB to child PCB
+620, 1, scheduler called
+621, 7, IRET
+628, 100, CPU execution
