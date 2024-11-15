@@ -1,7 +1,3 @@
-Here's a draft of a README file for your code:
-
----
-
 # Interrupt Simulator
 
 ## Overview
@@ -57,7 +53,3 @@ And is executed as:
 ## Notes
 - Ensure all input files are correctly formatted and available in the same directory as the executable.
 - Modify `trace.txt` and `output.txt` paths as needed for custom test cases.
-
----
-
-Feel free to ask for any modifications or additional details!
