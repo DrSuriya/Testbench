@@ -1,0 +1,2 @@
+gcc interrupts_101193772_101151910.cpp -o scheduler
+./scheduler input_data_2.txt EP

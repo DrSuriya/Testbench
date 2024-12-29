@@ -1,0 +1,4 @@
+gcc interrupts_101193772_101151910.cpp -o scheduler
+./scheduler input_data_4.txt FCFS
+#./scheduler input_data_4.txt EP
+#./scheduler input_data_4.txt RR

@@ -1,0 +1,52 @@
++------------------------------------------------+
+| Time | PID | Old State | New State |
++------------------------------------------------+
+|   0 |   0 | NEW       | READY      |
+|   0 |   1 | NEW       | READY      |
+|   0 |   0 | READY     | RUNNING    |
+|   5 |   2 | NEW       | READY      |
+|  10 |   0 | RUNNING   | WAITING    |
+|  11 |   1 | READY     | RUNNING    |
+|  11 |   0 | WAITING   | READY      |
+|  14 |   3 | NEW       | READY      |
+|  36 |   1 | RUNNING   | WAITING    |
+|  37 |   2 | READY     | RUNNING    |
+|  47 |   2 | RUNNING   | WAITING    |
+|  48 |   0 | READY     | RUNNING    |
+|  54 |   1 | WAITING   | READY      |
+|  55 |   2 | WAITING   | READY      |
+|  58 |   0 | RUNNING   | WAITING    |
+|  59 |   3 | READY     | RUNNING    |
+|  59 |   0 | WAITING   | READY      |
+|  60 |   3 | RUNNING   | WAITING    |
+|  61 |   1 | READY     | RUNNING    |
+|  70 |   3 | WAITING   | READY      |
+|  86 |   1 | RUNNING   | WAITING    |
+|  87 |   2 | READY     | RUNNING    |
+|  97 |   2 | RUNNING   | TERMINATED |
+|  98 |   0 | READY     | RUNNING    |
+| 108 |   0 | RUNNING   | WAITING    |
+| 109 |   3 | READY     | RUNNING    |
+| 109 |   1 | WAITING   | READY      |
+| 110 |   3 | RUNNING   | WAITING    |
+| 110 |   0 | WAITING   | READY      |
+| 111 |   1 | READY     | RUNNING    |
+| 121 |   3 | WAITING   | READY      |
+| 136 |   1 | RUNNING   | WAITING    |
+| 137 |   0 | READY     | RUNNING    |
+| 147 |   0 | RUNNING   | WAITING    |
+| 148 |   3 | READY     | RUNNING    |
+| 149 |   3 | RUNNING   | WAITING    |
+| 152 |   1 | WAITING   | READY      |
+| 153 |   1 | READY     | RUNNING    |
+| 153 |   0 | WAITING   | READY      |
+| 163 |   3 | WAITING   | READY      |
+| 178 |   1 | RUNNING   | TERMINATED |
+| 179 |   0 | READY     | RUNNING    |
+| 189 |   0 | RUNNING   | TERMINATED |
+| 190 |   3 | READY     | RUNNING    |
+| 191 |   3 | RUNNING   | WAITING    |
+| 201 |   3 | WAITING   | READY      |
+| 202 |   3 | READY     | RUNNING    |
+| 203 |   3 | RUNNING   | TERMINATED |
++------------------------------------------------+
