@@ -1,4 +1,5 @@
-
+Process Scheduling Simulator
+Overview
 _______________________________________
 Introduction  
 This project implements three scheduling algorithms:  
