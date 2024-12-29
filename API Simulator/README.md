@@ -1,4 +1,4 @@
-# Interrupt Simulator
+# API Simulator
 
 ## Overview
 This project simulates an interrupt handling system, designed to manage programs and their system calls. It includes the main simulation logic, definitions for handling interrupts, and associated data structures.
