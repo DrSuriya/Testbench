@@ -110,15 +110,15 @@ Task Fix login bug completed.
 
 ## **Project Structure**
 ```
-* Task-Manager
-- client.cpp           # Sends task list to server, receives execution updates
-- server.cpp           # Receives tasks, executes them, sends results back
-- task.h               # Task class definition
-- task.cpp             # Task implementation (execution, logging)
-- taskManager.h        # Task Manager class definition
-- taskManager.cpp      # Task Manager implementation (sorting, execution)
-- tasks.txt            # Task list input (created by the user)
-- task_log.txt         # Task execution logs
-- README.md            # Project documentation
+- Task-Manager
+   |- client.cpp           # Sends task list to server, receives execution updates
+   |- server.cpp           # Receives tasks, executes them, sends results back
+   |- task.h               # Task class definition
+   |- task.cpp             # Task implementation (execution, logging)
+   |- taskManager.h        # Task Manager class definition
+   |- taskManager.cpp      # Task Manager implementation (sorting, execution)
+   |- tasks.txt            # Task list input (created by the user)
+   |- task_log.txt         # Task execution logs
+   |- README.md            # Project documentation
 ```
 
