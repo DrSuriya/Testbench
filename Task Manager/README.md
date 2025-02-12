@@ -4,10 +4,10 @@
 This project implements a **real-time, concurrent task execution system** using a **client-server architecture**. The **client** reads tasks from a file and sends them to the **server** over **UDP sockets**. The **server** receives, prioritizes, executes the tasks, and returns execution results to the client.
 
 ### **Key Features**
-✔ **Client-Server Communication**: Uses UDP sockets for lightweight, fast data transmission.  
-✔ **Task Scheduling & Execution**: Tasks are **sorted by priority** and executed sequentially.  
-✔ **Concurrency**: The server **handles multiple clients simultaneously** using threads.  
-✔ **Logging**: Task execution results are saved in `task_log.txt`.  
+- **Client-Server Communication**: Uses UDP sockets for lightweight, fast data transmission.  
+- **Task Scheduling & Execution**: Tasks are **sorted by priority** and executed sequentially.  
+- **Concurrency**: The server **handles multiple clients simultaneously** using threads.  
+- **Logging**: Task execution results are saved in `task_log.txt`.  
 
 ---
 
@@ -108,17 +108,17 @@ Task Fix login bug completed.
 
 ---
 
-## 📂 **Project Structure**
+## **Project Structure**
 ```
-📂 Task-Manager
-🌟 client.cpp           # Sends task list to server, receives execution updates
-🌟 server.cpp           # Receives tasks, executes them, sends results back
-🌟 task.h               # Task class definition
-🌟 task.cpp             # Task implementation (execution, logging)
-🌟 taskManager.h        # Task Manager class definition
-🌟 taskManager.cpp      # Task Manager implementation (sorting, execution)
-🌟 tasks.txt            # Task list input (created by the user)
-🌟 task_log.txt         # Task execution logs
-🌟 README.md            # Project documentation
+* Task-Manager
+- client.cpp           # Sends task list to server, receives execution updates
+- server.cpp           # Receives tasks, executes them, sends results back
+- task.h               # Task class definition
+- task.cpp             # Task implementation (execution, logging)
+- taskManager.h        # Task Manager class definition
+- taskManager.cpp      # Task Manager implementation (sorting, execution)
+- tasks.txt            # Task list input (created by the user)
+- task_log.txt         # Task execution logs
+- README.md            # Project documentation
 ```
 
