@@ -1,0 +1,12 @@
+img {
+  display: block;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+}
+
+#img-div {
+  text-align: center;
+}
