@@ -1,4 +1,0 @@
-program1, 22
-program2, 21
-program3, 20
-program4, 9

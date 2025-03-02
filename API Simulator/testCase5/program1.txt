@@ -1,2 +1,0 @@
-CPU, 20
-EXEC program2, 33
