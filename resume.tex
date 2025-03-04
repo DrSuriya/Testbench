@@ -1,0 +1,218 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Muhammad Hasan Suriya} \\ \vspace{1pt}
+    Ottawa, Canada \ \ \
+    \raisebox{-0.1\height}\faPhone\ +1 (343) 551-9777 \ \textbullet \
+    \href{mailto:mhsuriya.w@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{mhsuriya.w@gmail.com}} \\
+    \href{https://linkedin.com/in/muhammad-hasan-suriya/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/muhammad-hasan-suriya}} ~
+    \href{https://github.com/mhasansuriya}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/mhasansuriya}} \\
+    \vspace{-8pt}
+\end{center}
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Carleton University}{Sep. 2020 -- Apr 2026}
+      {Bachelor of Engineering in Computer Systems Engineering}{Ottawa, Canada}
+  \resumeSubHeadingListEnd
+
+%----------- SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C/C++, Java, Python, HTML/CSS, Javascript} \\
+     \textbf{Developer Tools}{: Linux, Git, MATLAB, Blender, VS Code} }}
+\end{itemize}
+\vspace{-16pt}
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+\vspace{-5pt}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+    {\textbf{Task Manager – Client-Server System} $|$ \emph{C/C++}}{August 2023 – September 2023}
+    \resumeItemListStart
+        \resumeItem{Implemented a real-time, concurrent task execution system using UDP sockets to support multiple clients simultaneously.}\vspace{-13pt}
+        \resumeItem{Designed priority-based task scheduling and logging, ensuring efficient data transmission, resource management, and concurrency using multi-threading.}
+        \resumeItem{Demonstrated strong systems programming skills (memory handling, threading, and network communication).}
+    \resumeItemListEnd
+\vspace{-13pt}
+
+\resumeProjectHeading
+    {\textbf{GPA Management Systems} $|$ \emph{C \& C\#}}{June 2023 – August 2023}
+    \resumeItemListStart
+        \resumeItem{Developed student record and GPA calculation systems in both C and C\#, focusing on strengthening foundational programming knowledge.}
+        \resumeItem{Built the C version as a command-line tool using linked lists for dynamic memory management, incorporating course handling, GPA calculation, and sorting functionalities.}
+        \resumeItem{Created a C\# console application using Dictionaries and Lists to calculate GPA, dynamically assigning letter grades and summarizing student performance.}
+    \resumeItemListEnd
+\vspace{-13pt}
+
+\resumeProjectHeading
+    {\textbf{Interactive Tabletop System} $|$ \emph{Embedded Systems, Web Development}}{January 2025 – Present}
+    \resumeItemListStart
+        \resumeItem{Developing an interactive tabletop environment for Dungeons \& Dragons players, integrating touchscreen controls, audio/visual systems, and real-time map rendering using a Raspberry Pi 4.}
+        \resumeItem{Created a web server backend to manage and store maps, player data, and environment presets, allowing seamless control via a custom-built touchscreen interface.}
+        \resumeItem{Integrated sensors, audio outputs, and dynamic lighting effects to simulate immersive in-game environments.}
+        \resumeItem{Showcased skills in embedded systems design, software-hardware integration, web development, and real-time system control.}
+    \resumeItemListEnd
+\vspace{-13pt}
+
+\resumeProjectHeading
+    {\textbf{Macro Tracking Logger} $|$ \emph{Python}}{December 2024}
+    \resumeItemListStart
+        \resumeItem{Developed a simple executable application that logs daily macro inputs (carbs, protein, fat, calories) into a text file with date-stamped entries.}
+        \resumeItem{Used Python for file handling, user input validation, and formatted logging to ensure easy tracking and analysis.}
+        \resumeItem{Focused on clean user experience, ensuring inputs are appended automatically without manual file management.}
+    \resumeItemListEnd
+\vspace{-13pt}
+
+\resumeSubHeadingListEnd
+\vspace{1pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Extracurricular}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Carleton University Muslim Students' Association (CUMSA)}{Winter 2023 -- Winter 2025}{IAW Planning Team, VP External}{}
+            \resumeItemListStart
+                \resumeItem{Acquired and managed funds for Islam Awareness Week 2024, ensuring sponsorship acquisition, along with successful budgeting and fundraising over the course of the event}
+                \resumeItem{Organized various other events for Islamic History Month, Charity Week, and some Advocacy events}
+                \resumeItem{Managed the communications and public relations for the organization}
+            \resumeItemListEnd
+
+    \resumeSubHeadingListStart
+        \resumeSubheading{Additional Activities}{}{}{}\vspace{-13pt}
+        \resumeItemListStart
+        \resumeItem{Sports and Recreational Activities: Football, Running, Swimming, Skiing, Cycling}
+        \resumeItem{Workshops and Certifications: Generative AI, Large Language Models, Responsible AI, Cybersecurity in Healthcare, Microsoft Azure, Cloud Computing, Deep Learning}
+        \resumeItem{Pursuing Certification: Microsoft Certified in Security Compliance and Identity Fundamentals}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    
+
+
+
+\end{document}
+
