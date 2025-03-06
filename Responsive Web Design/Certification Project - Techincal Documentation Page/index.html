@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Documentation</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <nav id="navbar">
+    <header>JS Documentation</header>
+    <ul>
+      <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+      <li><a class="nav-link" href="#Variables">Variables</a></li>
+      <li><a class="nav-link" href="#Data_Types">Data Types</a></li>
+      <li><a class="nav-link" href="#Statements">Statements</a></li>
+      <li><a class="nav-link" href="#Functions">Functions</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>JavaScript is a cross-platform, object-oriented scripting language.</p>
+      <p>It can be used in web browsers and on servers.</p>
+      <p>JavaScript provides flexibility to work with dynamic content.</p>
+      <code>console.log('Hello, world!');</code>
+      <p>You can extend core JavaScript with additional libraries.</p>
+      <ul>
+        <li>Client-side JavaScript works in browsers.</li>
+        <li>Server-side JavaScript works on servers (Node.js).</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Variables">
+      <header>Variables</header>
+      <p>Variables store data values in JavaScript.</p>
+      <p>There are three ways to declare variables:</p>
+      <ul>
+        <li><code>var x = 42;</code></li>
+        <li><code>let y = 'hello';</code></li>
+        <li><code>const z = true;</code></li>
+      </ul>
+      <p>Variable names must follow specific rules.</p>
+      <p>JavaScript is case-sensitive, so 'varName' and 'varname' are different.</p>
+      <p>Variables can hold any type of data.</p>
+    </section>
+
+    <section class="main-section" id="Data_Types">
+      <header>Data Types</header>
+      <p>JavaScript supports several data types.</p>
+      <ul>
+        <li>String</li>
+        <li>Number</li>
+        <li>Boolean</li>
+        <li>Object</li>
+        <li>Array</li>
+      </ul>
+      <p>Strings represent text data.</p>
+      <p>Numbers can be integers or floats.</p>
+      <code>let count = 5;</code>
+      <p>Booleans are true or false.</p>
+      <p>Objects store key-value pairs.</p>
+      <code>let person = {name: 'John', age: 30};</code>
+    </section>
+
+    <section class="main-section" id="Statements">
+      <header>Statements</header>
+      <p>Statements are the building blocks of JavaScript programs.</p>
+      <p>Each statement performs an action.</p>
+      <p>Statements end with a semicolon.</p>
+      <ul>
+        <li>Declaration Statements</li>
+        <li>Assignment Statements</li>
+        <li>Control Flow Statements</li>
+      </ul>
+      <p>Control flow statements include:</p>
+      <ul>
+        <li><code>if (condition) { }</code></li>
+        <li><code>for (let i = 0; i < 5; i++) { }</code></li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Functions">
+      <header>Functions</header>
+      <p>Functions are reusable blocks of code.</p>
+      <p>They can take arguments and return values.</p>
+      <code>function greet(name) { return 'Hello ' + name; }</code>
+      <p>Functions can be declared or expressed.</p>
+      <p>Functions can also be anonymous or arrow functions.</p>
+      <code>const add = (a, b) => a + b;</code>
+      <p>Functions are first-class citizens in JavaScript.</p>
+    </section>
+  </main>
+</body>
+</html>
